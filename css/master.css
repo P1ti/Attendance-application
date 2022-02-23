@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #21325E;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.container {
+  width: 90%;
+  max-width: 400px;
+  margin: 1rem;
+  padding: 2rem;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+  background: #fff;
+}
+
+.form__title {
+  text-align: center;
+  color: #21325E;
+}
+
+.form__input {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  outline: none;
+  background-color: #eee;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  margin: 0.5rem 0;
+}
+
+.form__button {
+  width: 100%;
+  padding: 0.75rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+  background-color: #3E497A;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+  cursor: pointer;
+}
+
+.form__link {
+  color: #3E497A;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.form__link:hover {
+  text-decoration: underline;
+}
